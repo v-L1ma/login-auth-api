@@ -9,3 +9,4 @@ import com.example.login_auth_api.domain.user.User;
 public interface UserRepository extends JpaRepository<User, String> {
     Optional<User> findByEmail(String email);
 }
+
